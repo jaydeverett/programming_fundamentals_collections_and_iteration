@@ -73,3 +73,18 @@ cousin_ages = {
 # puts fav_movies
 
 # Exercise #4
+# 
+# puts ages.select{|x| x < 30 }
+#
+# puts ages.max
+#
+# puts coin_toss.select{|x| x == "yes"}
+#
+# fav_artists.delete(fav_artists[1])
+# # fav_artists.delete("Jay Z") (ALT)
+# puts fav_artists
+#
+# city_pop[:iqaluit] = 10000
+# puts city_pop
+
+# Exercise 5
