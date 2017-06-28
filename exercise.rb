@@ -32,6 +32,7 @@ cousin_ages = {
   sally: 40
 }
 
+
 # Exercise #1
 
 # puts coin_toss
@@ -75,7 +76,7 @@ cousin_ages = {
 # Exercise #4
 #
 # puts ages.select{|x| x < 30 }
-#
+
 # puts ages.max
 #
 # puts coin_toss.select{|x| x == "yes"}
@@ -89,19 +90,33 @@ cousin_ages = {
 
 # Exercise 5
 
-puts city_pop.values.sum
+# puts city_pop.values.sum
+#
+# cousin_ages.each do |k , v|
+#   if v < 30
+#     puts "#{k} is young"
+#   else
+#     puts "#{k} is old"
+#   end
+# end
+#
+# puts fav_colors.last(2)
+#
+# puts ages.map{|n| n += 1}
+#
+# fav_colors << ["aqua", "maroon"]
+# puts fav_colors
+#
+# Exercise 6
 
-cousin_ages.each do |k , v|
-  if v < 30
-    puts "#{k} is young"
-  else
-    puts "#{k} is old"
-  end
-end
+movies_by_year = {
+  1999: "The Matrix", "Star Wars: Episode 1", "The Mummy";
+  2009: "Avatar", "Star Trek", "District 9";
+  2019: "How to Train Your Dragon 3", "Toy Story 4", "Star Wars: Episode 9"
+}
 
-puts fav_colors.last(2)
+phone_buttons = [[1, 2, 3],[4, 5, 6], [7, 8, 9], ["*", 0, "#"]]
 
-puts ages.map{|n| n += 1}
-
-fav_colors << ["aqua", "maroon"]
-puts fav_colors
+country_island_or_not = [[:canada => "North America", "Not Island" ],
+  [:easter_island => "South America", "Island"], [:spain => "Europe",
+    "Not Island"]]
