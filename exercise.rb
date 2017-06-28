@@ -32,12 +32,44 @@ cousin_ages = {
   sally: 40
 }
 
-puts coin_toss
+# Exercise #1
 
-puts fav_colors[0]
+# puts coin_toss
+#
+# puts fav_colors[0]
+#
+# puts [ages.sort]
+#
+# puts ages.push[0]
+#
+# puts fav_movies[:the_matrix]
 
-puts [ages.sort]
+# Exercise #2
 
-puts ages.push[0]
+# puts fav_colors.last
+#
+# city_pop[:iqaluit] = 7740
+#
+# puts coin_toss.reverse!
+#
+# puts city_pop[:berlin]
+#
+# fav_artists.each do |n|
+#   puts "I think #{n} is great."
+# end
 
-puts fav_movies[:the_matrix]
+#Exercise #3
+
+# puts fav_artists[0..1]
+#
+# fav_movies.each do |k , v|
+#   puts "#{k} came out in #{v}."
+# end
+#
+# puts ages.sort.reverse
+#
+# fav_movies[:beauty_and_the_beast] = 1991, 2017
+#
+# puts fav_movies
+
+# Exercise #4
