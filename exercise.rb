@@ -108,15 +108,57 @@ cousin_ages = {
 # puts fav_colors
 #
 # Exercise 6
+#
+# movies_by_year = {
+#   1999: "The Matrix", "Star Wars: Episode 1", "The Mummy";
+#   2009: "Avatar", "Star Trek", "District 9";
+#   2019: "How to Train Your Dragon 3", "Toy Story 4", "Star Wars: Episode 9"
+# }
+#
+# phone_buttons = [[1, 2, 3],[4, 5, 6], [7, 8, 9], ["*", 0, "#"]]
+#
+# country_island_or_not = [{:country => "Canada", :continent => "North America",
+#   :island => false}, {:country => "Easter Island", :continent => "South America",
+#   :island => true}, {:country => "Spain", :continent => "Europe", :island => false}]
+#
+# # Exercise 6
 
-movies_by_year = {
-  1999: "The Matrix", "Star Wars: Episode 1", "The Mummy";
-  2009: "Avatar", "Star Trek", "District 9";
-  2019: "How to Train Your Dragon 3", "Toy Story 4", "Star Wars: Episode 9"
-}
+# 20.times do
+#   puts "I will not skateboard in the halls"
+# end
+#
+#
+# x = "I will not skateboard in the halls"
+#
+# simpsons_array = Array.new(20, x)
+#
+# puts simpsons_array
 
-phone_buttons = [[1, 2, 3],[4, 5, 6], [7, 8, 9], ["*", 0, "#"]]
 
-country_island_or_not = [[:canada => "North America", "Not Island" ],
-  [:easter_island => "South America", "Island"], [:spain => "Europe",
-    "Not Island"]]
+# numbers_array = *(1..50)
+# puts numbers_array
+#
+# puts numbers_array.each.sum
+
+# triple_numbers = *(1..50)
+#
+# puts triple_numbers.map {|n| [n] * 3 }
+
+
+
+country_island_or_not = [{:country => "Canada", :continent => "North America",
+  :island => false}, {:country => "Easter Island", :continent => "South America",
+  :island => true}, {:country => "Spain", :continent => "Europe", :island => false}
+]
+
+not_island = []
+
+country_island_or_not.each do |country_island_or_not|
+  if country_island_or_not[:island] == false
+  not_island.push(country_island_or_not[:country])
+end
+end
+
+puts country_island_or_not
+
+puts not_island
