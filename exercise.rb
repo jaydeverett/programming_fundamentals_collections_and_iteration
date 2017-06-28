@@ -73,7 +73,7 @@ cousin_ages = {
 # puts fav_movies
 
 # Exercise #4
-# 
+#
 # puts ages.select{|x| x < 30 }
 #
 # puts ages.max
@@ -88,3 +88,20 @@ cousin_ages = {
 # puts city_pop
 
 # Exercise 5
+
+puts city_pop.values.sum
+
+cousin_ages.each do |k , v|
+  if v < 30
+    puts "#{k} is young"
+  else
+    puts "#{k} is old"
+  end
+end
+
+puts fav_colors.last(2)
+
+puts ages.map{|n| n += 1}
+
+fav_colors << ["aqua", "maroon"]
+puts fav_colors
